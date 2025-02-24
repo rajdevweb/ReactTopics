@@ -1,0 +1,7 @@
+.bigContainer {
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 10px ;
+}

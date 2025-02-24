@@ -1,0 +1,10 @@
+.btn {
+    border: 1px solid black;
+    padding: 10px 15px;
+    min-width: 50px;
+    border-radius: 5px;
+}
+
+.widthbtn {
+    width: 110px;
+}
