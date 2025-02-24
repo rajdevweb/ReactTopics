@@ -22,8 +22,7 @@ const TodoList = () => {
         </div>
 
        <div className='row-start-1 row-end-3'>
-            {/* <label className="text-sm font-medium text-gray-900 dark:text-white">First name</label>
-            <input type="submit" id="first_name" className=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 " placeholder="John" required /> */}
+            
             <input type="submit" value={"ADD"} className='block dark:bg-green-600 mt-6 p-2.5 w-full text-white rounded-lg dark:focus:border-gray-500'/>
         </div>
 
@@ -36,20 +35,17 @@ const TodoList = () => {
 
  <div className='flex gap-5 mx-5 items-center grid grid-cols-3'>
       <div className='row-start-1 row-end-3'>
-            {/* <label  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
-            <input type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required /> */}
+            
             <p className='text-center bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'>Buy Milk</p>
         </div>
 
         <div className='row-start-1 row-end-3'>
-            {/* <label  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
-            <input type="date" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required /> */}
+  
             <p className='text-center bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'>26/12/2024</p>
         </div>
 
        <div className='row-start-1 row-end-3'>
-            {/* <label className="text-sm font-medium text-gray-900 dark:text-white">First name</label>
-            <input type="submit" id="first_name" className=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 " placeholder="John" required /> */}
+           
             <input type="submit" value={"Delete"} className='block dark:bg-red-600 mt-6 p-2.5 w-full text-white rounded-lg dark:focus:border-gray-500'/>
         </div>
 
@@ -59,21 +55,18 @@ const TodoList = () => {
     </div>
      <div className='flex gap-5 mx-5 items-center grid grid-cols-3'>
       <div className='row-start-1 row-end-3'>
-            {/* <label  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
-            <input type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required /> */}
+            
              <p className='text-center bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'>Buy Milk</p>
         </div>
 
         <div className='row-start-1 row-end-3'>
-            {/* <label  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
-            <input type="date" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required /> */}
+       
                    <p className='text-center bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 '>26/12/2024</p>
 
         </div>
 
        <div className='row-start-1 row-end-3'>
-            {/* <label className="text-sm font-medium text-gray-900 dark:text-white">First name</label>
-            <input type="submit" id="first_name" className=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 " placeholder="John" required /> */}
+            
             <input type="submit" value={"Delete"}  className='block dark:bg-red-600 mt-6 p-2.5 w-full text-white rounded-lg dark:focus:border-gray-500'/>
         </div>
 
